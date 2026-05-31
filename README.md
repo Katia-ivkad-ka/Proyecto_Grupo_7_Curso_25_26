@@ -16,4 +16,4 @@ en tiempo real sin necesidad de papeleo.
 - `diagramas/` — Diagramas de análisis y diseño
 - `ui/` — Diseño de pantalla principal
 
-![MyFace](/img/face.png)
+![MyFace](/img/factura.png)
