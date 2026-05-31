@@ -15,3 +15,5 @@ en tiempo real sin necesidad de papeleo.
 - `presentacion.txt` — Enlace a la presentación
 - `diagramas/` — Diagramas de análisis y diseño
 - `ui/` — Diseño de pantalla principal
+
+![MyFace](/img/factura.png)
