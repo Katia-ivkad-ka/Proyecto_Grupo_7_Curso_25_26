@@ -1,0 +1,75 @@
+@startuml FacturasJavaFX
+!theme plain
+skinparam classBackgroundColor #FEFEFE
+skinparam classBorderColor #000000
+skinparam arrowColor #000000
+
+class Main {
+    +start(Stage): void
+    +main(String[]): void
+}
+
+class Cliente {
+    -name: String
+    -dni: String
+    -telefono: String
+    +Cliente(String, String, String)
+    +equals(Object): boolean
+    +hashCode(): int
+}
+
+class Factura {
+    -cliente: Cliente
+    -maquinas: List<Maquina>
+    -ciudad: String
+    -calle: String
+    -numero: String
+    -metroAdicional: double
+    -gasExtra: double
+    +Factura(Cliente)
+    +addMaquina(Maquina): void
+    +CalcularFactura(): double
+    +toFile(): String
+}
+
+class Maquina {
+    -modelo: String
+    -instalacion: double
+    +Maquina(String, double)
+}
+
+class Catalogo {
+    +cargarMaquinas(): List<Maquina>
+}
+
+class GestionCliente {
+    +CargarClientes(): List<Cliente>
+    +NuevoCliente(String, String, String): void
+}
+
+class GestionFacturas {
+    +GuardarFactura(Factura): void
+    +obtenerFacturas(): List<Factura>
+    +buscarPorDni(String): List<Factura>
+    +buscarPorDireccion(String, String, String): List<Factura>
+}
+
+class Launcher {
+    +main(String[]): void
+}
+
+Main --> Cliente
+Main --> Factura
+Main --> Catalogo
+Main --> GestionCliente
+Main --> GestionFacturas
+
+Factura --> Cliente
+Factura --> Maquina
+
+Catalogo --> Maquina
+GestionCliente --> Cliente
+GestionFacturas --> Factura
+Launcher --> Main
+
+@enduml

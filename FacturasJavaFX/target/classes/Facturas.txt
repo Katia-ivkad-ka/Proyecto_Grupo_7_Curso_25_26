@@ -1,0 +1,7 @@
+Juan Perez;12345678A;600123456;Alicante;Cotolengo;2;Split 3000frg,Split 6000frg,Split 6000frg,Conductos 4000frg,Conductos 6000frg;8.0;0.0
+Juan Perez;12345678A;600123456;Madrid;Gran Via;15;Split 3000frg,Split 6000frg,Conductos 4000frg;5.0;0.0
+Maria Lopez;87654321B;611234567;Barcelona;Diagonal;32;Split 4000frg,Split 4000frg,Conductos 6000frg,Conductos 6000frg;0.0;3.0
+Carlos Ruiz;11223344C;622345678;Valencia;Colon;8;Conductos 8000frg,Conductos 10000frg;12.0;5.0
+Laura Gomez;22334455D;633456789;Sevilla;Sierpes;4;Split 3000frg,Split 6000frg;0.0;0.0
+David Sanchez;33445566E;644567890;Bilbao;Gran Via;21;Conductos 5000frg,Conductos 7000frg,Conductos 10000frg;3.0;2.0
+David Sanchez;33445566E;644567890;Bilbao;Gran Via;21;Conductos 7000frg,Conductos 10000frg;3.0;2.0
